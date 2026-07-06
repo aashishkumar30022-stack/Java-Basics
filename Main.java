@@ -1,6 +1,9 @@
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
-        int number = 5; 
+       Scanner sc = new Scanner(System.in);
+        int number = sc.nextInt();
 
         System.out.println("--- Table of " + number + " ---");
 
